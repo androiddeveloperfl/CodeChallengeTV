@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<resources>
+
+    <style name="Theme.CodeChallengeTV" parent="android:Theme.Material.Light.NoActionBar" />
+
+    <style name="Theme.App.Starting" parent="Theme.SplashScreen">
+        <item name="windowSplashScreenBackground">@color/codechallengetv_background</item>
+        <item name="windowSplashScreenAnimatedIcon">@drawable/ic_play_circle</item>
+        <item name="postSplashScreenTheme">@style/Theme.CodeChallengeTV</item>
+    </style>
+</resources>
